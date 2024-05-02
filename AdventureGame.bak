@@ -1,0 +1,7 @@
+#lang racket
+
+(define (hello-world)
+  (println " Hello World"))
+
+
+(struct game-state (real_life_time timeline_location  ) #:transparent)
