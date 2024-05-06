@@ -1,0 +1,6 @@
+#lang racket
+
+(provide (struct-out location))
+
+(struct location (name description branches items) #:transparent)
+(struct item (name description effect))
